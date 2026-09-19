@@ -1,0 +1,80 @@
+/* =========================
+   PSTS GANJIL
+   Nama: Rafan Ariza Sofyan
+   Kelas: X.U-4
+   Warna Utama: #1e3a11
+   Max-width: 755px
+   ========================= */
+
+/* a. GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* b. CONTAINER KONTEN */
+.wadah-konten {
+    max-width: 755px;
+    margin: 0 auto;
+}
+
+
+/* c. HEADER STYLING */
+header {
+    background-color: #1e3a11;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+/* NAVIGASI */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+
+/* e. HOVER NAVIGASI */
+nav a:hover {
+    color: #b7d7a8;
+}
+
+
+/* d. CARD DESIGN */
+.kartu-item {
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 15px;
+
+    /* Sudut melengkung */
+    border-radius: 10px;
+
+    /* Bayangan kartu */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    /* Border kiri sesuai warna tema */
+    border-left: 4px solid #1e3a11;
+}
+
+
+/* LABEL KATEGORI */
+.label-kategori {
+    background-color: #1e3a11;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #1e3a07;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
